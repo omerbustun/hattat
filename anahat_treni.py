@@ -1,9 +1,9 @@
 from dakikadan_zaman_damgasi import zam_dam
 
-AT_route = {'A': 0, 'B': 100, 'C': 200, 'D': 275, 'E': 325, 'F': 375, 'O': 450}
-AT_route_rev = {'O': 0, 'F': 75, 'E': 125, 'D': 175, 'C': 250, 'B': 350, 'A': 450}
+AT_route = {'N': 0, 'K': 75, 'P': 200, 'R': 275, 'D': 325, 'S': 375, 'P': 450}
+AT_route_rev = {'P': 0, 'S': 75, 'D': 125, 'R': 175, 'P': 250, 'K': 350, 'N': 450}
 AT_distances = {'A': 100, 'B': 100, 'C': 75, 'D': 50, 'E': 50, 'F': 75, 'O': 0}
-AT_distances_rev = {'O': 25, 'F': 75, 'E': 75, 'D': 100, 'C': 75, 'B': 100, 'A': 0}
+AT_distances_rev = {'O': 75, 'F': 50, 'E': 50, 'D': 75, 'C': 100, 'B': 100, 'A': 0}
 
 def ATcikart(AT_max_hiz, sefer_suresi, gecikme, tren, durak_suresi, genel_bakimKM, genel_bakim, sefer_bakim):
     gecen_sure = 0 + gecikme
